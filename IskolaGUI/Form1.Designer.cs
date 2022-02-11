@@ -42,6 +42,7 @@ namespace IskolaGUI
             this.btntörlés.TabIndex = 0;
             this.btntörlés.Text = "Törlés";
             this.btntörlés.UseVisualStyleBackColor = true;
+            this.btntörlés.Click += new System.EventHandler(this.btntörlés_Click);
             // 
             // btnMentés
             // 

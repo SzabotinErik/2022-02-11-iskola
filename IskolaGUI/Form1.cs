@@ -25,5 +25,19 @@ namespace IskolaGUI
                 listBox1.Items.Add(sor);
             }
         }
+
+        private void btntörlés_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1)
+            {
+                listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+            }
+            else
+            {
+                //hiba
+                MessageBox.Show("Nem jelölt ki tanulot");
+            }
+            
+        }
     }
 }

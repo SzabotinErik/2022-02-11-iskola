@@ -39,5 +39,22 @@ namespace IskolaGUI
             }
             
         }
+
+        private void btnMentés_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter("nevekNEW.txt");
+                sw.WriteLine(listBox1);
+                sw.Close();
+                MessageBox.Show("Sikeres mentés!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"sikertelen mentés! \n {ex}");
+               
+            }
+            
+        }
     }
 }

@@ -52,6 +52,7 @@ namespace IskolaGUI
             this.btnMentés.TabIndex = 1;
             this.btnMentés.Text = "Mentés";
             this.btnMentés.UseVisualStyleBackColor = true;
+            this.btnMentés.Click += new System.EventHandler(this.btnMentés_Click);
             // 
             // listBox1
             // 

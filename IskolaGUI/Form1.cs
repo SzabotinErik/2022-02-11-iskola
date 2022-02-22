@@ -51,7 +51,7 @@ namespace IskolaGUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"sikertelen mentés! \n {ex}");
+                MessageBox.Show($"sikertelen mentés! \n {ex}"); 
                
             }
             
